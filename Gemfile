@@ -8,8 +8,9 @@ gem 'rails-api'
 gem 'spring', :group => :development
 
 
-gem 'sqlite3'
+gem 'active_model_serializers'
 
+gem 'pg',             '0.17.1'
 
 
 # To use ActiveModel has_secure_password
